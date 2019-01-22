@@ -23,5 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'coveralls'
 
   s.add_runtime_dependency 'net-ldap', '~> 0.16'
-  s.add_runtime_dependency 'casino', '>= 3.0.0', '< 5.0.0'
+
+  # Moved casino to Gemfile to support the git param
+  # s.add_runtime_dependency 'casino', '~> 5.0', git: 'git@github.com:identification-io/CASino.git'
 end
